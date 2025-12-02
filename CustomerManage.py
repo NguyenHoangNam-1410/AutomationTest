@@ -10,9 +10,9 @@ import os
 # Add current directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from TestSuite.SearchDataDriven import SearchDataDrivenTest
-from TestSuite.SortDataDriven import SortDataDrivenTest
-from TestSuite.DeleteDataDriven import DeleteDataDrivenTest
+from TestSuite.CustomerManage.SearchDataDriven import SearchDataDrivenTest
+from TestSuite.CustomerManage.SortDataDriven import SortDataDrivenTest
+from TestSuite.CustomerManage.DeleteDataDriven import DeleteDataDrivenTest
 
 
 def create_test_suite():

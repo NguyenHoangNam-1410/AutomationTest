@@ -10,7 +10,7 @@ class SearchDataDrivenTest(BaseDataDrivenTest):
     
     def test_search_with_csv_data(self):
         """Test search functionality with multiple search terms from CSV"""
-        test_data = self.read_csv_data('TestFile/SearchDataDriven.csv')
+        test_data = self.read_csv_data('TestFile/CustomerManage/SearchDataDriven.csv')
         
         for index, data in enumerate(test_data, start=1):
             # Parse the search input locator

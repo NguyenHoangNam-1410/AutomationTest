@@ -11,7 +11,7 @@ class DeleteDataDrivenTest(BaseDataDrivenTest):
     
     def test_delete_with_csv_data(self):
         """Test delete functionality with multiple customers from CSV"""
-        test_data = self.read_csv_data('TestFile/DeleteDataDriven.csv')
+        test_data = self.read_csv_data('TestFile/CustomerManage/DeleteDataDriven.csv')
         
         for index, data in enumerate(test_data, start=1):
             # Parse the delete button locator

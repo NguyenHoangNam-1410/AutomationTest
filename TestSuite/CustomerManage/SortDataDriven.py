@@ -10,7 +10,7 @@ class SortDataDrivenTest(BaseDataDrivenTest):
     
     def test_sort_with_csv_data(self):
         """Test sort functionality with multiple sort options from CSV"""
-        test_data = self.read_csv_data('TestFile/SortDataDriven.csv')
+        test_data = self.read_csv_data('TestFile/CustomerManage/SortDataDriven.csv')
         
         for index, data in enumerate(test_data, start=1):
             # Parse the sort label locator
