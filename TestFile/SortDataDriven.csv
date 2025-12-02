@@ -1,0 +1,7 @@
+siteUrl,sortLabel,customerButton
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=First Name,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=First Name,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=Last Name,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=Last Name,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=Post Code,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
+https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list,link=Post Code,xpath=(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::button[1]
